@@ -115,7 +115,26 @@ li > a {
 }
 
 .header-img {
+    height: 543px;
     position: absolute;
     top: 128px;
     left: 1000px;
+    z-index: -1;
+}
+
+.feature-container {
+    margin: 40px;
+}
+
+.click-test {
+    
+}
+
+.btn-sign {
+    background-color: #FF9900;
+    color: #FFFFFF;
+    border: none;
+    width: 175px;
+    height: 53px;
+    border-radius: 4px;
 }
