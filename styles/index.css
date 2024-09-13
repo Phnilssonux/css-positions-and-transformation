@@ -1,18 +1,20 @@
 body {
     font-family: "Poppins";
-    width: 100%;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    margin: 20px;
-    
+    margin: 20px;   
+}
+
+img {
+    padding: 0;
 }
 
 header {
     max-width: 1126px;
     width: 100%;
     min-height: 496px;
+    margin-bottom: 50px;
 }
 
 nav {
@@ -101,8 +103,9 @@ li > a {
 }
 
 .main-title {
-    width: 518px;
-    height: 108px;
+    max-width: 518px;
+    width: 100%;
+    min-height: 108px;
     font-size: 44px;
     font-style: bold;
 
@@ -122,12 +125,18 @@ li > a {
     z-index: -1;
 }
 
-.feature-container {
-    margin: 40px;
+.feature-title {
+    max-width: 539px;
+    text-align: center;
+    margin-bottom: 54px;
 }
 
-.click-test {
-    
+.feature-container {
+    max-width: 1095px;
+    width: 100%;
+    min-height: 20;
+    display: flex;
+    margin-bottom: 34px;
 }
 
 .btn-sign {
@@ -137,4 +146,54 @@ li > a {
     width: 175px;
     height: 53px;
     border-radius: 4px;
+    margin-bottom: 210px;
+}
+
+.validation-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 103px;
+    
+}
+
+.validation-text {
+    max-width: 486px;
+    width: 100%;
+    min-height: 531px;
+    margin-right: 70px;
+}
+
+.marketers-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 103px;
+    
+}
+
+.marketers-text {
+    max-width: 486px;
+    width: 100%;
+    min-height: 609px;
+    margin-left: 70px;
+}
+
+.production-container {
+    max-width: 1121px;
+    width: 100%;
+    min-height: 521px;
+    display: flex;
+}
+
+.production-text {
+    max-width: 486px;
+    width: 100%;
+    min-height: 427px;
+    margin: 30px;
+    margin-left: 70px;
+
+}
+
+.icon-text1 {
+    display: flex;
+    
 }
