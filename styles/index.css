@@ -197,3 +197,38 @@ li > a {
     display: flex;
     
 }
+
+.footer{
+    display: flex;
+    justify-content: center;
+    max-width: 1109px;
+    width: 100%;
+    min-height: 308px;
+    margin: 100px;
+}
+
+.footer-btn {
+    display: flex;
+    max-width: 325px;
+    width: 100%;
+    min-height: 199px;
+    
+}
+
+.white-btn {
+    width: 325px;
+    height: 48px;
+    border-radius: 4px;
+    border-color: #BCD0E5;
+    background-color: #FFFFFF;
+}
+
+.orange-btn {
+    width: 131px;
+    height: 39px;
+    color: #FFFFFF;
+    background-color: #FF9900;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+}
