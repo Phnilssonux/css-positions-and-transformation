@@ -156,6 +156,7 @@ li > a {
     
 }
 
+
 .validation-text {
     max-width: 486px;
     width: 100%;
@@ -182,6 +183,7 @@ li > a {
     width: 100%;
     min-height: 521px;
     display: flex;
+    margin-bottom: 100px;
 }
 
 .production-text {
@@ -193,14 +195,14 @@ li > a {
 
 }
 
-.icon-text1 {
-    display: flex;
+.icon-text {
+    margin-bottom: 30px;
     
 }
 
 .footer{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     max-width: 1109px;
     width: 100%;
     min-height: 308px;
@@ -212,7 +214,9 @@ li > a {
     max-width: 325px;
     width: 100%;
     min-height: 199px;
+    flex-direction: column;
     
+
 }
 
 .white-btn {
@@ -221,6 +225,8 @@ li > a {
     border-radius: 4px;
     border-color: #BCD0E5;
     background-color: #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 21px;
 }
 
 .orange-btn {
